@@ -1,0 +1,57 @@
+body {
+  background: grey;
+}
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+/* Basic styles */
+h1 {
+  position: relative;
+  float: top;
+  color: purple;
+  font-family: Comic Sans;
+  font-size: 3em;
+}
+h1 span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  width: 100%;
+  border-left: 0.1em solid transparent;
+  -webkit-animation: typing 3s steps(16) forwards, cursor 1s infinite;
+  animation: typing 3s steps(16) forwards, cursor 1s infinite;
+}
+/* Animation */
+@-webkit-keyframes typing {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+@-webkit-keyframes cursor {
+  50% {
+    border-color: white;
+  }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+@keyframes cursor {
+  50% {
+    border-color: white;
+  }
+
