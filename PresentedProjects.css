@@ -1,0 +1,12 @@
+body {
+ background-image: url("https://cdn.glitch.com/53846813-706a-4471-ba68-3d11f494df89%2F1901974.jpg?v=1578673543900");
+ background-color: #cccccc;
+ background-size: 100% `100%;
+ background-repeat: no-repeat;
+}
+
+text {
+  color: green;
+  text-shadow: 4px 4px black;
+  text-align: center;
+}
